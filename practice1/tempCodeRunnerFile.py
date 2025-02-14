@@ -1,10 +1,4 @@
-    print("mean a = ", np.mean(a))
-    print("mean a = ", np.mean(a, dtype=np.float64))
-    # Median
-    X = np.array([2, 5, 3, 1, 7])
-    Y = np.array([2, 1, 8, 5, 7, 9])
-    print("Median X = ", np.median(X))
-    print("Median Y = ", np.median(Y))
-    arr = np.array([[7, 4, 2], [3, 9, 5]])
-    print("median arr (axis = 0) = ", np.median(arr, axis=0))
-    print("median arr (axis = 1) = ", np.median(arr, axis=1))
+  X = [19, 33, 51, 22, 18, 13, 45, 24, 58, 11, 25, 27, 26, 29]
+    print("X = ", X)
+    print("Variance: ", calculate_variance(X))
+    print("Standard Deviation: ", calculate_std_deviation(X))
