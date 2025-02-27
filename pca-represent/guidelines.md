@@ -52,5 +52,5 @@ LQN
 
 Xem tham khảo:
 
-- **[Chương 8 - sách AMSA [1]](https://github.com/phungquoctuan/HCMUS-MSA/blob/main/reference-books/%5B1%5D%20Applied%20Multivariate%20Statistical%20Analysis-LQN.pdf)**
-- **[Chương 10 - sách [2]]([link_đến_tài_liệu_2](https://github.com/phungquoctuan/HCMUS-MSA/blob/main/reference-books/%5B2%5D%20Wolfgang-epdf.pub_applied-multivariate-statistical-analysis-LQN.pdf))**
+- **[Chương 8 - sách AMSA [1]](./../reference-books/1.pdf)**
+- **[Chương 10 - sách [2]](./../reference-books/2.pdf)**
