@@ -1,0 +1,16 @@
+
+1. purpose
+
+    Principal Component Analysis (PCA) is a statistical technique used for dimensionality reduction.
+    It transforms the data into a new coordinate system where the greatest variances by any projection of the data come to lie on the first coordinates (called principal components).
+    The main purposes of PCA are:
+    1. Reducing the dimensionality of the data while retaining most of the variation in the dataset.
+    2. Identifying patterns in data and expressing the data in such a way as to highlight their similarities and differences.
+    3. Improving the efficiency of machine learning algorithms by reducing the number of input variables.
+    4. Removing noise and redundancy from the data.
+
+2. problem statement
+
+    Given a dataset with a large number of variables, it can be challenging to analyze and visualize the data due to its high dimensionality. This can lead to difficulties in identifying patterns, relationships, and trends within the data. Additionally, high-dimensional data can negatively impact the performance of machine learning algorithms, making them computationally expensive and prone to overfitting.
+
+    The problem is to apply Principal Component Analysis (PCA) to reduce the dimensionality of the dataset while retaining as much of the original variation as possible. By transforming the data into a new set of orthogonal variables (principal components), we aim to simplify the dataset, improve the efficiency of subsequent analyses, and enhance the interpretability of the data.
