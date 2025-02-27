@@ -1,4 +1,3 @@
-
 1. purpose
 
     Principal Component Analysis (PCA) is a statistical technique used for dimensionality reduction.
@@ -14,3 +13,33 @@
     Given a dataset with a large number of variables, it can be challenging to analyze and visualize the data due to its high dimensionality. This can lead to difficulties in identifying patterns, relationships, and trends within the data. Additionally, high-dimensional data can negatively impact the performance of machine learning algorithms, making them computationally expensive and prone to overfitting.
 
     The problem is to apply Principal Component Analysis (PCA) to reduce the dimensionality of the dataset while retaining as much of the original variation as possible. By transforming the data into a new set of orthogonal variables (principal components), we aim to simplify the dataset, improve the efficiency of subsequent analyses, and enhance the interpretability of the data.
+
+3. method
+
+    To apply Principal Component Analysis (PCA) to the dataset, follow these steps:
+
+    1. Standardize the Data:
+        - Standardize the dataset to have a mean of zero and a standard deviation of one. This ensures that each variable contributes equally to the analysis.
+        - Use the formula: z = (x - mean) / standard deviation
+
+    2. Compute the Covariance Matrix:
+        - Calculate the covariance matrix to understand how the variables in the dataset are related to each other.
+        - The covariance matrix is a square matrix that shows the covariance between pairs of variables.
+
+    3. Calculate the Eigenvalues and Eigenvectors:
+        - Compute the eigenvalues and eigenvectors of the covariance matrix. The eigenvalues represent the amount of variance captured by each principal component, while the eigenvectors define the direction of the principal components.
+
+    4. Sort Eigenvalues and Eigenvectors:
+        - Sort the eigenvalues in descending order and arrange the corresponding eigenvectors accordingly. The eigenvectors with the highest eigenvalues are the principal components that capture the most variance in the data.
+
+    5. Select Principal Components:
+        - Choose the top k eigenvectors (principal components) that correspond to the largest eigenvalues. The number of principal components selected depends on the desired level of variance to be retained in the dataset.
+
+    6. Transform the Data:
+        - Project the standardized data onto the selected principal components to obtain the transformed dataset. This results in a new dataset with reduced dimensionality, where each data point is represented by its coordinates in the new principal component space.
+
+    7. Analyze and Visualize:
+        - Use the transformed dataset for further analysis and visualization. The reduced dimensionality simplifies the dataset, making it easier to identify patterns, relationships, and trends.
+
+    By following these steps, PCA can effectively reduce the dimensionality of the dataset while retaining most of the original variation, improving the efficiency of subsequent analyses and enhancing the interpretability of the data.
+
